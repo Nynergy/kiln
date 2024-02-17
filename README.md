@@ -105,7 +105,7 @@ You can try setting the tags to those files by running _kiln_ against that file
 like so:
 
 ```
-kiln set --ask MoLF.kiln
+$ kiln set --ask MoLF.kiln
 ```
 
 This is assuming that you dumped the output into a file called 'MoLF.kiln'. The
