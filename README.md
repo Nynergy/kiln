@@ -45,7 +45,11 @@ example, let's run it against some music files I downloaded from [this Bandcamp
 page](https://mapsoflowfidelity.bandcamp.com/album/opal-drifters).
 
 While inside the directory with all the music files, let's invoke _kiln_ in the
-following way: `$ kiln list "./*Opal*"`
+following way:
+
+```
+$ kiln list "./*Opal*"
+```
 
 Take note of a couple things here.The glob is contained within quotes, because
 without the quotes the shell would expand the glob before passing all the
@@ -98,7 +102,11 @@ useful to do this, because just like _patch_, this is the same format that
 _kiln_ will use to read id3 tags and make changes to the specified files.
 
 You can try setting the tags to those files by running _kiln_ against that file
-like so: `kiln set --ask MoLF.kiln`
+like so:
+
+```
+kiln set --ask MoLF.kiln
+```
 
 This is assuming that you dumped the output into a file called 'MoLF.kiln'. The
 .kiln extension isn't necessary, but it makes it easier to know what the files
